@@ -18,14 +18,16 @@
     :root{
 
 
-        --primary-bg-clr:#001F3F;
-        --primary-bg-clr:#003366;
+        --primary-bg-clr-1:#001F3F;
+        --primary-bg-clr-2:#003366;
 
     }
 
     html{
 
         font-size: 62.5%;
+
+        color-scheme: dark;
     }
 
     h1,h2,h3,h4,h5{
@@ -37,9 +39,43 @@
 
     body{
 
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Raleway', Helvetica, sans-serif;
         font-size: 1.2rem;
         font-weight: 400;
     }
 
+    .container{
+
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    
+    header{
+
+         background-color: var(--primary-bg-clr-2);
+         flex: 0 0 10%; 
+    }
+
+
+    main{
+
+       
+         background-color: var(--primary-bg-clr-1);
+         flex: 1 0 0;
+    }
+
+
+    .wrapper{
+
+
+
+        width: 70%;
+       
+        background-color: grey;
+        margin: 0 auto;
+
+    }
 }
