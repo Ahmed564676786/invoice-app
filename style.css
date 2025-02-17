@@ -1,0 +1,45 @@
+@layer reset{
+
+
+     *,::after,::before{
+
+
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+}
+
+
+@layer base{
+
+
+
+    :root{
+
+
+        --primary-bg-clr:#001F3F;
+        --primary-bg-clr:#003366;
+
+    }
+
+    html{
+
+        font-size: 62.5%;
+    }
+
+    h1,h2,h3,h4,h5{
+
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+
+    body{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+}
